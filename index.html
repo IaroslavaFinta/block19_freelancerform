@@ -5,15 +5,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <style>
-            table,thead,tr,th,tbody {
-            border:1px solid black;
+            thead,th,tr,td,tbody {
+                border:1px solid black;
+                align-items: center;
+            }
+            table {
+                margin: 15px;
+                padding: 10px;
+                align-items: center;
+                width: 400px;
+                height: fit-content;
+                margin-left: 10px;
+                padding: 3px;
+            }
+            body{
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%) }
             }
         </style>
     </head>
     <body>
         <h1>Freelancer forum</h1>
         <p>
-        The average price is
+            The average price is $
             <span></span>
         </p>
         <h2> Available freelancers </h2>
